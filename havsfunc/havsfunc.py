@@ -4,7 +4,7 @@ import math
 from functools import partial
 from typing import Any, Mapping, Optional, Sequence, Union
 
-from vsdenoise import BM3D, nl_means, prefilter_to_full_range
+from vsdenoise import bm3d, nl_means, prefilter_to_full_range
 from vsexprtools import complexpr_available, norm_expr
 from vsrgtools import BlurMatrix, gauss_blur, repair
 from vstools import (
